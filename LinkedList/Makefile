@@ -1,4 +1,4 @@
-CC := gcc
+CC ?= gcc
 LIB := lib
 INCLUDE := include
 BUILD := build
