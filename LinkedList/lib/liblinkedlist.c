@@ -72,10 +72,10 @@ void print_array(ListArray *arr) {
     for (size_t i = 0; i < arr->count; i++) {
         printf("array[%zu] -> [%p] | data_type: %d | owns_data: %d | next: %p\n",
             i,
-            (void *)arr->nodes[i],
+            (void*)arr->nodes[i],
             arr->nodes[i]->data_type,
             arr->nodes[i]->owns_data,
-            (void *)arr->nodes[i]->next_node_id);
+            (void*)arr->nodes[i]->next_node_id);
     }
 }
 
