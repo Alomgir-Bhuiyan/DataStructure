@@ -12,7 +12,7 @@ CFLAGS := -fPIC -Wall -Wextra -Werror -O2 -shared
 
 .PHONY: all clean setup install
 
-all: setup $(OBJ) install
+all: setup $(OBJ)
 
 $(BUILD)/%.so: $(LIB)/%.c
 	$(CC) $(CFLAGS) $< -o $@
