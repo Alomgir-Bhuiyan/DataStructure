@@ -67,8 +67,8 @@ typedef struct LinkedList {
  * List container structure.
  *
  * Members:
- *  - nodes: dynamic array of pointers to LinkedList nodes
- *  - count: number of elements in the list
+ *  - nodes: dynamic array of pointers to LinkedList nodes.
+ *  - count: number of elements in the list.
  *
  * This allows O(1) index access while still maintaining
  * linked structure internally.
